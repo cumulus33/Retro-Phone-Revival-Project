@@ -8,9 +8,7 @@ function Footer() {
         <p className="footer-brand">Retro Phone Revival Project</p>
         <p className="footer-credit">
           <span>Made with love by</span> 
-          <a href="https://github.com/replaylab" target="_blank" rel="noreferrer">
-            <strong> ReplayLab</strong>
-          </a>
+          <strong> ReplayLab</strong>
         </p>
       </div>
     </footer>
