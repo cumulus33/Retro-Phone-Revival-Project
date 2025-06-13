@@ -1,0 +1,619 @@
+.home-page {
+  padding-top: 30px;
+  background-color: #FFFDF5;
+  min-height: 100vh;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 2rem;
+}
+
+/* ===== Hero Section ===== */
+.hero-section {
+  padding: 1rem 0;
+  background: #FFFDF5;
+  height: 450px;
+  display: flex;
+  align-items: center;
+}
+
+.hero-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 2rem;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.hero-text {
+  flex: 1;
+  max-width: 500px;
+}
+
+.hero-text h1 {
+  font-size: 80px;
+  font-weight: 400;
+  line-height: 1.1;
+  margin-bottom: 2rem;
+  color: #000;
+  letter-spacing: -0.02em;
+}
+
+.hero-text p {
+  font-size: 20px;
+  color: var(--black-65);
+  font-weight: 300;
+  line-height: 1.6;
+  white-space: nowrap;
+}
+
+.hero-image {
+  flex: 1;
+  text-align: right;
+  max-width: 50%;
+}
+
+.hero-image img {
+  max-width: 80%;
+  height: auto;
+  max-height: 350px;
+  object-fit: contain;
+}
+
+/* 中文字体样式 */
+html[lang="zh"] .hero-text h1 {
+  font-family: 'Source Han Serif', serif;
+  font-weight: 500;
+  letter-spacing: -0.01em;
+}
+
+html[lang="zh"] .hero-text p {
+  font-family: 'MiSans-Light', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+}
+
+/* ===== Tomatone Section ===== */
+.tomatone-section {
+  padding: 2.5rem 0;
+  background: #FFFDF5;
+}
+
+.app-intro {
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 3rem;
+}
+
+.app-icon {
+  margin-right: 1.5rem;
+  flex-shrink: 0;
+}
+
+.app-icon img {
+  width: 64px;
+  height: 64px;
+}
+
+.app-info h2 {
+  font-size: 24px;
+  font-weight: 600;
+  margin-bottom: 0.1rem;
+  color: var(--black-88);
+}
+
+.app-info p {
+  font-size: 16px;
+  color: var(--black-88);
+  margin-bottom: 0;
+  line-height: 1.6;
+  display: inline;
+}
+
+.status-image {
+  height: 16px;
+  width: auto;
+  display: inline;
+  margin-left: 0.5rem;
+  vertical-align: middle;
+}
+
+/* 应用截图展示 */
+.app-screenshots {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 24px;
+  margin-bottom: 3rem;
+}
+
+.screenshot {
+  text-align: center;
+}
+
+.screenshot img {
+  width: 100%;
+  max-width: 320px;
+  max-height: 240px;
+  height: auto;
+  border-radius: 8px;
+  transition: transform 0.3s ease;
+  cursor: pointer;
+}
+
+.screenshot img:hover {
+  transform: scale(1.05);
+}
+
+/* 下载链接 */
+.download-section h3 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  margin-bottom: 0;
+  margin-right: 2rem;
+  color: #000;
+  display: inline;
+}
+
+.download-links {
+  display: inline-flex;
+  gap: 2rem;
+  flex-wrap: wrap;
+}
+
+.download-link {
+  color: var(--black-65);
+  text-decoration: underline;
+  font-size: 16px;
+  transition: color 0.3s ease;
+  display: inline-block;
+}
+
+.download-link:hover {
+  color: #000;
+}
+
+/* ===== Other Apps Section ===== */
+.other-apps-section {
+  padding: 2.5rem 0;
+  background: #FFFDF5;
+}
+
+.app-item {
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 3rem;
+}
+
+.app-item .app-icon {
+  margin-right: 1.5rem;
+  flex-shrink: 0;
+}
+
+.app-item .app-icon img {
+  width: 64px;
+  height: 64px;
+}
+
+.app-item .app-info h3 {
+  font-size: 24px;
+  font-weight: 600;
+  margin-bottom: 0.1rem;
+  color: var(--black-88);
+}
+
+.app-item .app-info p {
+  font-size: 16px;
+  color: var(--black-88);
+  margin-bottom: 0;
+  line-height: 1.6;
+  display: inline;
+}
+
+.app-item .app-info p a {
+  color: var(--black-88);
+  text-decoration: underline;
+}
+
+.app-item .app-info p a:hover {
+  color: var(--black-65);
+}
+
+/* ===== Learn More Section ===== */
+.learn-more-section {
+  padding: 1rem 0 2rem 0;
+  background: #FFFDF5;
+}
+
+.learn-more-link {
+  display: inline-block;
+  font-family: 'Scheherazade New', serif;
+  font-size: 64px;
+  font-weight: 500;
+  color: #000;
+  text-decoration: none;
+  position: relative;
+  transition: color 0.3s ease;
+}
+
+.learn-more-link::after {
+  content: '';
+  position: absolute;
+  bottom: 8px;
+  left: 0;
+  width: 0;
+  height: 2px;
+  background-color: #000;
+  transition: width 0.4s ease;
+}
+
+.learn-more-link:hover::after {
+  width: 100%;
+}
+
+/* 中文字体样式 */
+html[lang="zh"] .learn-more-link {
+  font-family: 'Source Han Serif', serif;
+  font-weight: 500;
+  font-size: 60px;
+}
+
+html[lang="zh"] .app-info p,
+html[lang="zh"] .app-item .app-info p,
+html[lang="zh"] .download-link {
+  font-family: 'MiSans-Light', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+}
+
+/* 中文环境下"下载"标题保持Montserrat Bold */
+html[lang="zh"] .download-section h3 {
+  font-family: 'Montserrat', sans-serif;
+}
+
+/* 应用英文名保持英文字体 */
+.app-info h2,
+.app-item .app-info h3 {
+  font-family: 'Scheherazade New', serif;
+  font-weight: 500;
+}
+
+/* ===== 响应式设计 ===== */
+/* 大屏幕保持最大字体 */
+@media (min-width: 1440px) {
+  .container {
+    padding: 0 2rem;
+    max-width: 1400px;
+  }
+  
+  .hero-content {
+    padding: 0 2rem;
+    max-width: 1400px;
+  }
+  
+  .hero-image img {
+    max-width: 85%;
+  }
+}
+
+@media (min-width: 1200px) and (max-width: 1439px) {
+  .hero-content {
+    padding: 0 2rem;
+    max-width: 1200px;
+  }
+  
+  .container {
+    padding: 0 2rem;
+    max-width: 1200px;
+  }
+}
+
+@media (max-width: 1199px) {
+  .hero-content {
+    padding: 0 64px;
+    max-width: none;
+    margin: 0 auto;
+  }
+  
+  .container {
+    padding: 0 64px;
+  }
+  
+  .hero-text h1 {
+    font-size: 64px;
+    letter-spacing: -0.02em;
+  }
+  
+  .hero-text p {
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 992px) {
+  .hero-section {
+    height: auto;
+    padding: 2rem 0;
+  }
+  
+  .hero-content {
+    padding: 0 48px;
+    flex-direction: column;
+    text-align: center;
+    max-width: none;
+    margin: 0 auto;
+  }
+  
+  .container {
+    padding: 0 48px;
+  }
+  
+  .hero-text {
+    max-width: none;
+    margin-bottom: 2rem;
+  }
+  
+  .hero-text h1 {
+    font-size: 48px;
+    letter-spacing: -0.02em;
+  }
+  
+  .hero-text p {
+    font-size: 16px;
+    white-space: normal;
+  }
+  
+  .hero-image {
+    max-width: 100%;
+    text-align: center;
+  }
+  
+  .hero-image img {
+    max-width: 60%;
+    max-height: 280px;
+  }
+  
+  .app-screenshots {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.5rem;
+  }
+  
+  .download-links {
+    gap: 1.5rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .home-page {
+    padding-top: 20px;
+  }
+  
+  .hero-section {
+    padding: 2rem 0;
+    height: auto;
+    min-height: 350px;
+  }
+  
+  .hero-content {
+    padding: 0 20px;
+    max-width: none;
+    margin: 0 auto;
+  }
+  
+  .container {
+    padding: 0 20px;
+  }
+  
+  .hero-text h1 {
+    font-size: 36px;
+    margin-bottom: 1.5rem;
+    letter-spacing: -0.02em;
+  }
+  
+  .hero-text p {
+    font-size: 14px;
+    white-space: normal;
+  }
+  
+  .hero-image img {
+    max-width: 70%;
+    max-height: 220px;
+  }
+  
+  .app-icon img,
+  .app-item .app-icon img {
+    width: 48px;
+    height: 48px;
+  }
+  
+  .app-info h2,
+  .app-item .app-info h3 {
+    font-size: 18px;
+  }
+  
+  .app-info p,
+  .app-item .app-info p {
+    font-size: 14px;
+  }
+  
+  .status-image {
+    height: 12px;
+  }
+  
+    .tomatone-section,
+  .other-apps-section {
+    padding: 2rem 0;
+  }
+  
+  .learn-more-section {
+    padding: 0.5rem 0 1.5rem 0;
+  }
+
+  .app-intro {
+    margin-bottom: 2rem;
+  }
+
+  .app-screenshots {
+    margin-bottom: 2rem;
+  }
+
+  .app-item {
+    margin-bottom: 2rem;
+  }
+
+  .learn-more-link {
+    font-size: 48px;
+  }
+  
+  .learn-more-link::after {
+    bottom: 6px;
+  }
+}
+
+@media (max-width: 480px) {
+  .home-page {
+    padding-top: 15px;
+  }
+  
+  .hero-section {
+    padding: 1.5rem 0;
+    height: auto;
+    min-height: 300px;
+  }
+  
+  .hero-content {
+    padding: 0 16px;
+    max-width: none;
+    margin: 0 auto;
+  }
+  
+  .container {
+    padding: 0 16px;
+  }
+  
+  .hero-text h1 {
+    font-size: 24px;
+    line-height: 1.2;
+    letter-spacing: -0.02em;
+  }
+  
+  .hero-text p {
+    font-size: 12px;
+    white-space: normal;
+  }
+  
+  .hero-image img {
+    max-width: 80%;
+    max-height: 180px;
+  }
+  
+  .app-icon img,
+  .app-item .app-icon img {
+    width: 40px;
+    height: 40px;
+  }
+  
+  .app-info h2,
+  .app-item .app-info h3 {
+    font-size: 16px;
+  }
+  
+  .app-info p,
+  .app-item .app-info p {
+    font-size: 12px;
+  }
+  
+  .status-image {
+    height: 10px;
+  }
+  
+    .tomatone-section,
+  .other-apps-section {
+    padding: 1.5rem 0;
+  }
+  
+  .learn-more-section {
+    padding: 0.5rem 0 1rem 0;
+  }
+
+  .app-screenshots {
+    grid-template-columns: 1fr;
+    gap: 1rem;
+  }
+
+  .app-intro {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .app-icon {
+    margin-right: 0;
+    margin-bottom: 1rem;
+  }
+
+  .app-item {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .app-item .app-icon {
+    margin-right: 0;
+    margin-bottom: 1rem;
+  }
+
+  .download-section h3 {
+    display: block;
+    margin-bottom: 0.5rem;
+    margin-right: 0;
+  }
+
+  .download-links {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+
+  .learn-more-link {
+    font-size: 32px;
+  }
+  
+  .learn-more-link::after {
+    bottom: 4px;
+    height: 1.5px;
+  }
+}
+
+/* ===== 动画效果 ===== */
+.animate-on-scroll {
+  opacity: 0;
+  transform: translateY(20px);
+}
+
+.animate-on-scroll.fadeInUp {
+  animation: fadeInUp 0.8s cubic-bezier(0.25, 0.1, 0.25, 1) forwards;
+}
+
+/* 设置不同延迟，使元素依次出现 */
+.animate-on-scroll:nth-child(1) { animation-delay: 0.1s; }
+.animate-on-scroll:nth-child(2) { animation-delay: 0.2s; }
+.animate-on-scroll:nth-child(3) { animation-delay: 0.3s; }
+.animate-on-scroll:nth-child(4) { animation-delay: 0.4s; }
+.animate-on-scroll:nth-child(5) { animation-delay: 0.5s; }
+
+/* 淡入动画 */
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* ===== CSS变量定义 ===== */
+:root {
+  --black-88: rgba(0, 0, 0, 0.88);
+  --black-65: rgba(0, 0, 0, 0.65);
+} 

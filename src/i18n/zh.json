@@ -1,0 +1,83 @@
+{
+  "common": {
+    "projectName": "复古手机复兴计划"
+  },
+  "nav": {
+    "apps": "应用",
+    "about": "关于项目",
+    "contact": "联系作者"
+  },
+  "home": {
+    "title": "复古手机复兴计划",
+    "comingSoon": "即将推出..."
+  },
+  "about": {
+    "title": "关于 - 复古手机复兴计划",
+    "intro1": "世界上，依然还存在着无数的复古手机。",
+    "intro2": "它们有着各种各样的形态。",
+    "intro3": "充一次电，可以用上好几天。",
+    "intro4": "没有社交媒体的打扰，带来的是纯粹、安静的离线体验。",
+    "intro5": "但可惜的是，已经很少有人为它们开发新的应用了。",
+    "statement": "这就是我为何开启这个项目。",
+    "description1": "我正在借助大模型等新型生产力工具，为这些老设备开发一些小而现代的应用。",
+    "description2": "这些应用基于 Java ME，可以运行在 2005 到 2010 年间大部分支持 Java 的手机上，包括基诺亚的 S40 和 S60 系列，索尼爱立信，摩托罗拉，三星等品牌的很多经典机型。",
+    "description3": "我希望这个项目，能为还喜欢老手机的人，带来一些继续使用它们的可能性。"
+  },
+  "contact": {
+    "title": "联系我们 - 复古手机复兴计划",
+    "greeting": "你好，我是 Cumulus",
+    "jobTitle": "一名用户体验设计师，曾在支付宝和小米工作。",
+    "background": "工业设计专业背景，对硬件也一直充满兴趣。",
+    "interests": "喜欢各种复古科技产品，尤其是配有全键盘的设备。",
+    "hobby": "平时喜欢亲手折腾一些有趣的软件和硬件项目。",
+    "projectDescription": "「复古手机复兴计划」是我个人的长期计划，",
+    "callToAction": "如果你有任何建议或有趣的想法，欢迎联系我！",
+    "email": "邮箱：2329537967@qq.com",
+    "recentPosts": "最新动态：小红书 →",
+    "replayProject": "Replay Pi 项目：闲鱼 →"
+  },
+  "apps": {
+    "title": "应用 - 复古手机复兴计划", 
+    "pageTitle": "应用",
+    "heroTitle": "老手机，",
+    "heroTitleSecond": "焕发新生机。",
+    "heroSubtitle": "一系列为复古手机打造的现代应用，由 Java ME 驱动",
+    "tomatone": {
+      "name": "Tomatone",
+      "description": "简单好用的番茄钟，帮你保持专注",
+      "status": "新玩家友好"
+    },
+    "pocketkey": {
+      "name": "Pocketkey",
+      "description": "离线密码管理工具，专为复古手机打造", 
+      "status": "即将抵达..."
+    },
+    "noisio": {
+      "name": "Noisio",
+      "description": "一个帮你专注或放松的白噪音播放器",
+      "status": "即将抵达..."
+    },
+    "tagshot": {
+      "name": "Tagshot", 
+      "description": "每张照片都将被贴上复古数码感的相机工具",
+      "status": "即将抵达..."
+    },
+    "nextApplication": {
+      "name": "Next Application",
+      "description": "有想法或建议？欢迎",
+      "link": "联系我"
+    },
+    "download": "下载",
+    "downloadLinks": {
+      "blackberry": "黑莓手机 (640x480)",
+      "nokia320": "诺基亚及其他手机 (320x240)",
+      "nokia240": "诺基亚及其他手机 (240x320)"
+    },
+    "learnMore": "了解我为何开启这个项目"
+  },
+  "footer": {
+    "madeWith": "由",
+    "companyName": "ReplayLab",
+    "suffix": "用心制作"
+  }
+} 

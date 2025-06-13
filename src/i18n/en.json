@@ -1,0 +1,82 @@
+{
+  "common": {
+    "projectName": "Retro Phone Revival Project"
+  },
+  "nav": {
+    "apps": "Apps",
+    "about": "About",
+    "contact": "Contact"
+  },
+  "home": {
+    "title": "Retro Phone Revival Project",
+    "comingSoon": "Coming soon..."
+  },
+  "about": {
+    "title": "About - Retro Phone Revival Project",
+    "intro1": "All around the world, there are still countless retro phones quietly existing.",
+    "intro2": "They come in all kinds of shapes.",
+    "intro3": "They last for days on a single charge.",
+    "intro4": "They offer a pure, distraction-free, offline experience — far away from social media overload.",
+    "intro5": "But sadly, almost no one is building new apps for them anymore.",
+    "statement": "That's why I started this project.",
+    "description1": "I'm trying to build small, modern apps for these old devices with the help of modern tools like large language models.",
+    "description2": "Using Java ME — the most widely supported platform across feature phones from 2005 to 2010 — these apps can run on a wide range of classic models: from Nokia's S40 and S60 series, to Sony Ericsson, Motorola, Samsung, and many others.",
+    "description3": "I hope this project can make it a little easier for people who still love old phones to keep using them — and maybe, keep them alive a little longer."
+  },
+  "contact": {
+    "title": "Contact - Retro Phone Revival Project",
+    "greeting": "Hi, I'm Cumulus",
+    "jobTitle": "A UX designer with experience at Alipay and Xiaomi.",
+    "background": "Trained in industrial design, with a strong interest in hardware.",
+    "interests": "A fan of retro tech — especially devices with full physical keyboards.",
+    "hobby": "In my spare time, I enjoy building fun software and hardware projects by hand.",
+    "projectDescription": "The Retro Phone Revival Project is my personal long-term plan.",
+    "callToAction": "If you have any suggestions or cool ideas, feel free to get in touch!",
+    "email": "Email: 2329537967@qq.com",
+    "recentPosts": "Recent Posts: Xiaohongshu →",
+    "replayProject": "Replay Pi Project: Xianyu →"
+  },
+  "apps": {
+    "title": "Apps - Retro Phone Revival Project",
+    "pageTitle": "Apps",
+    "heroTitle": "Retro Phones,",
+    "heroTitleSecond": "Still Alive.",
+    "heroSubtitle": "A collection of modern apps for retro phones, powered by Java ME",
+    "tomatone": {
+      "name": "Tomatone",
+      "description": "A simple pomodoro timer for staying focused",
+      "status": "Now Available!"
+    },
+    "pocketkey": {
+      "name": "Pocketkey", 
+      "description": "An offline password vault designed for retro phones",
+      "status": "Coming Soon..."
+    },
+    "noisio": {
+      "name": "Noisio",
+      "description": "A white noise player to help you focus or relax", 
+      "status": "Coming Soon..."
+    },
+    "tagshot": {
+      "name": "Tagshot",
+      "description": "A camera tool that tags each photo with a retro digital look",
+      "status": "Coming Soon..."
+    },
+    "nextApplication": {
+      "name": "Next Application",
+      "description": "Got ideas or suggestions? Welcome to ",
+      "link": "contact me"
+    },
+    "download": "Download",
+    "downloadLinks": {
+      "blackberry": "BlackBerry (640x480)",
+      "nokia320": "Nokia and Other (320x240)", 
+      "nokia240": "Nokia and Other (240x320)"
+    },
+    "learnMore": "Learn why I started this project"
+  },
+  "footer": {
+    "madeWith": "Made with love by",
+    "companyName": "ReplayLab"
+  }
+} 

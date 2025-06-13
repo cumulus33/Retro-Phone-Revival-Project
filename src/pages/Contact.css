@@ -1,0 +1,511 @@
+.contact-page {
+  padding-top: 30px;
+  padding-bottom: 0;
+  background-color: #FFFDF5;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 2rem;
+}
+
+.personal-intro {
+  padding: 1rem 0 3rem;
+  text-align: left;
+}
+
+.avatar {
+  margin-bottom: 2.5rem;
+}
+
+.avatar-circle {
+  width: 120px;
+  height: 120px;
+  background: linear-gradient(135deg, #4A90E2 0%, #5BA3F5 100%);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  overflow: hidden;
+}
+
+.avatar-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.greeting {
+  font-size: 48px;
+  font-weight: 400;
+  color: #1a1a1a;
+  margin-bottom: 2.5rem;
+  line-height: 1.2;
+  white-space: nowrap;
+}
+
+.intro-content {
+  margin-bottom: 2.5rem;
+}
+
+.intro-content p {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 32px;
+  color: rgba(0, 0, 0, 0.88);
+  margin-bottom: 1.5rem;
+  white-space: nowrap;
+}
+
+.job-title {
+  font-weight: 300 !important;
+}
+
+.contact-info {
+  padding-top: 2rem;
+  margin-bottom: 1rem;
+  display: flex;
+  align-items: center;
+  gap: 6rem;
+  flex-wrap: nowrap;
+  width: 100%;
+  justify-content: flex-start;
+}
+
+.contact-item {
+  margin-bottom: 0;
+}
+
+.contact-item span {
+  font-family: 'Scheherazade New', serif;
+  font-size: 28px;
+  font-weight: 500;
+  color: #1a1a1a;
+  white-space: nowrap;
+}
+
+/* 在中等及小屏幕下允许换行 */
+@media (max-width: 1199px) {
+  .contact-item span {
+    white-space: normal;
+  }
+}
+
+.email-link {
+  text-decoration: none;
+  color: inherit;
+  position: relative;
+}
+
+.email-link::after {
+  content: '';
+  position: absolute;
+  bottom: 2px;
+  left: 0;
+  width: 0;
+  height: 2px;
+  background-color: #000;
+  transition: width 0.4s ease;
+}
+
+.email-link:hover::after {
+  width: 100%;
+}
+
+.social-links {
+  display: flex;
+  gap: 6rem;
+  flex-wrap: nowrap;
+  align-items: center;
+}
+
+.social-link {
+  font-family: 'Scheherazade New', serif;
+  font-size: 28px;
+  font-weight: 500;
+  color: #1a1a1a;
+  text-decoration: none;
+  white-space: nowrap;
+  position: relative;
+}
+
+/* 在中等及小屏幕下允许换行 */
+@media (max-width: 1199px) {
+  .social-link {
+    white-space: normal;
+  }
+}
+
+.social-link::after {
+  content: '';
+  position: absolute;
+  bottom: 2px;
+  left: 0;
+  width: 0;
+  height: 2px;
+  background-color: #1a1a1a;
+  transition: width 0.4s ease;
+}
+
+.social-link:hover::after {
+  width: 100%;
+}
+
+/* 动画效果 */
+.animate-on-scroll {
+  opacity: 0;
+  transform: translateY(20px);
+}
+
+.animate-on-scroll.fadeInUp {
+  animation: fadeInUp 0.4s cubic-bezier(0.25, 0.1, 0.25, 1) forwards;
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* 极短的延迟，让所有元素快速依次出现 */
+.avatar.animate-on-scroll {
+  animation-delay: 0s;
+}
+
+.greeting.animate-on-scroll {
+  animation-delay: 0.02s;
+}
+
+.job-title.animate-on-scroll {
+  animation-delay: 0.04s;
+}
+
+.background.animate-on-scroll {
+  animation-delay: 0.06s;
+}
+
+.interests.animate-on-scroll {
+  animation-delay: 0.08s;
+}
+
+.hobby.animate-on-scroll {
+  animation-delay: 0.1s;
+}
+
+.project-description.animate-on-scroll {
+  animation-delay: 0.12s;
+}
+
+.call-to-action.animate-on-scroll {
+  animation-delay: 0.14s;
+}
+
+.contact-info.animate-on-scroll {
+  animation-delay: 0.16s;
+}
+
+/* 中文样式 */
+html[lang="zh"] .greeting {
+  font-family: 'Source Han Serif', serif;
+  font-weight: 500;
+  letter-spacing: -0.01em;
+}
+
+html[lang="zh"] .intro-content p {
+  font-family: 'MiSans-Light', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  font-weight: 300;
+  line-height: 32px;
+}
+
+/* 中文联系方式字体 */
+html[lang="zh"] .contact-item span,
+html[lang="zh"] .email-link span,
+html[lang="zh"] .social-link {
+  font-family: 'Source Han Serif', serif !important;
+  font-weight: 500 !important;
+}
+
+/* 英文联系方式字体保持不变 */
+html[lang="en"] .contact-item span,
+html[lang="en"] .email-link span,
+html[lang="en"] .social-link {
+  font-family: 'Scheherazade New', serif !important;
+  font-weight: 500 !important;
+}
+
+/* 响应式样式 */
+@media (min-width: 1440px) {
+  .container {
+    padding: 0 2rem;
+    max-width: 1400px;
+  }
+  
+  .greeting {
+    font-size: 56px;
+  }
+  
+  .intro-content p {
+    font-size: 22px;
+    line-height: 36px;
+  }
+  
+  .contact-item span,
+  .social-link {
+    font-size: 32px;
+  }
+  
+  .email-link::after,
+  .social-link::after {
+    bottom: 4px;
+  }
+  
+  .contact-info {
+    gap: 7rem;
+  }
+  
+  .social-links {
+    gap: 7rem;
+  }
+}
+
+@media (max-width: 1199px) {
+  .container {
+    padding: 0 64px;
+  }
+  
+  /* 在中等屏幕下也需要允许折行 */
+  .contact-item span,
+  .social-link {
+    white-space: normal;
+    word-wrap: break-word;
+    line-height: 1.2;
+  }
+  
+  .contact-info {
+    flex-wrap: wrap;
+    gap: 3rem;
+  }
+  
+  .social-links {
+    flex-wrap: wrap;
+    gap: 3rem;
+  }
+  
+  .contact-item,
+  .social-links a {
+    min-width: 0;
+    flex-shrink: 1;
+  }
+}
+
+@media (min-width: 1200px) and (max-width: 1439px) {
+  .container {
+    padding: 0 2rem;
+    max-width: 1200px;
+  }
+}
+
+@media (max-width: 992px) {
+  .container {
+    padding: 0 48px;
+  }
+  
+  .greeting {
+    font-size: 42px;
+  }
+  
+  .intro-content p {
+    font-size: 18px;
+    line-height: 30px;
+  }
+  
+  .contact-item span,
+  .social-link {
+    font-size: 26px;
+    white-space: normal;
+    word-wrap: break-word;
+    line-height: 1.25;
+  }
+  
+  .email-link::after,
+  .social-link::after {
+    bottom: 3px;
+  }
+  
+  .contact-info {
+    gap: 2.5rem;
+    flex-wrap: wrap;
+  }
+  
+  .social-links {
+    gap: 2.5rem;
+    flex-wrap: wrap;
+  }
+  
+  .contact-item,
+  .social-links a {
+    min-width: 0;
+    flex-shrink: 1;
+  }
+}
+
+@media (max-width: 768px) {
+  .container {
+    padding: 0 20px;
+  }
+  
+  .personal-intro {
+    padding: 1.5rem 0 0;
+  }
+  
+  .avatar-circle {
+    width: 100px;
+    height: 100px;
+  }
+  
+  .greeting {
+    font-size: 36px;
+    margin-bottom: 2rem;
+  }
+  
+  .intro-content p {
+    font-size: 17px;
+    line-height: 28px;
+    margin-bottom: 1.2rem;
+    white-space: normal;
+    letter-spacing: -0.01em;
+  }
+  
+  .intro-content {
+    margin-bottom: 2.5rem;
+  }
+  
+  .contact-item span,
+  .social-link {
+    font-size: 22px;
+    white-space: normal;
+    word-wrap: break-word;
+    line-height: 1.2;
+  }
+  
+  .email-link::after,
+  .social-link::after {
+    bottom: 2px;
+  }
+  
+  .contact-info {
+    gap: 1.5rem;
+    flex-wrap: wrap;
+  }
+  
+  .social-links {
+    gap: 1.5rem;
+    flex-wrap: wrap;
+  }
+  
+  .contact-item,
+  .social-links a {
+    min-width: 0;
+    flex-shrink: 1;
+  }
+}
+
+@media (max-width: 480px) {
+  .container {
+    padding: 0 16px;
+  }
+  
+  .personal-intro {
+    padding: 1rem 0 0;
+  }
+  
+  .avatar-circle {
+    width: 80px;
+    height: 80px;
+  }
+  
+  .greeting {
+    font-size: 28px;
+    margin-bottom: 1.5rem;
+  }
+  
+  .intro-content p {
+    font-size: 16px;
+    line-height: 26px;
+    margin-bottom: 1rem;
+  }
+  
+  .intro-content {
+    margin-bottom: 2rem;
+  }
+  
+    .contact-item span,
+  .social-link {
+    font-size: 18px;
+    white-space: normal;
+    word-wrap: break-word;
+    line-height: 1.3;
+  }
+
+  .email-link::after,
+  .social-link::after {
+    bottom: 1px;
+    height: 1.5px;
+  }
+
+  .contact-info {
+    flex-direction: column;
+    gap: 1.2rem;
+    align-items: flex-start;
+  }
+  
+  .social-links {
+    flex-direction: column;
+    gap: 1rem;
+    align-items: flex-start;
+    width: 100%;
+  }
+  
+  .contact-item,
+  .social-links a {
+    width: 100%;
+    min-width: 0;
+  }
+}
+
+/* 超小屏幕优化 */
+@media (max-width: 360px) {
+  .container {
+    padding: 0 12px;
+  }
+  
+    .contact-item span,
+  .social-link {
+    font-size: 16px;
+    line-height: 1.3;
+  }
+
+  .email-link::after,
+  .social-link::after {
+    bottom: 1px;
+    height: 1px;
+  }
+
+  .greeting {
+    font-size: 24px;
+  }
+  
+  .intro-content p {
+    font-size: 15px;
+    line-height: 24px;
+  }
+} 
