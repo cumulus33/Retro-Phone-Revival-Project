@@ -216,7 +216,7 @@
 /* 中文样式 */
 html[lang="zh"] .greeting {
   font-family: 'Source Han Serif', 'Noto Serif SC', 'STSong', 'Songti SC', serif;
-  font-weight: 500;
+  font-weight: 500 !important;
   letter-spacing: -0.01em;
 }
 

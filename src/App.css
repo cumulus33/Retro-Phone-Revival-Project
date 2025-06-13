@@ -19,7 +19,7 @@
 
 @font-face {
   font-family: 'Source Han Serif';
-  src: url('./assets/fonts/SourceHanSerif-Medium.ttc') format('truetype-collection');
+  src: url('./assets/fonts/SourceHanSerifSC-Medium.otf') format('opentype');
   font-weight: 500;
   font-style: normal;
 }
@@ -164,9 +164,7 @@ html[lang="zh"] .text-content p {
   font-family: 'MiSans-Light', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
 }
 
-html[lang="zh"] p, 
-html[lang="zh"] span, 
-html[lang="zh"] div {
+html[lang="zh"] p {
   font-family: 'MiSans-Light', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
 }
 

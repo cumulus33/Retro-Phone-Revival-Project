@@ -68,7 +68,7 @@
 /* 中文字体样式 */
 html[lang="zh"] .hero-text h1 {
   font-family: 'Source Han Serif', 'Noto Serif SC', 'STSong', 'Songti SC', serif;
-  font-weight: 500;
+  font-weight: 500 !important;
   letter-spacing: -0.01em;
 }
 
@@ -257,7 +257,7 @@ html[lang="zh"] .hero-text p {
 /* 中文字体样式 */
 html[lang="zh"] .learn-more-link {
   font-family: 'Source Han Serif', 'Noto Serif SC', 'STSong', 'Songti SC', serif;
-  font-weight: 500;
+  font-weight: 500 !important;
   font-size: 60px;
 }
 
