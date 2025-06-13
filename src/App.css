@@ -156,7 +156,7 @@ html[lang="zh"] .intro-text {
 }
 
 html[lang="zh"] .about-statement h1 {
-  font-family: 'Source Han Serif', serif;
+  font-family: 'Source Han Serif', 'Noto Serif SC', 'STSong', 'Songti SC', serif;
   font-weight: 500;
 }
 

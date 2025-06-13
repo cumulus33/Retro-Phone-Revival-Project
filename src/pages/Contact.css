@@ -215,7 +215,7 @@
 
 /* 中文样式 */
 html[lang="zh"] .greeting {
-  font-family: 'Source Han Serif', serif;
+  font-family: 'Source Han Serif', 'Noto Serif SC', 'STSong', 'Songti SC', serif;
   font-weight: 500;
   letter-spacing: -0.01em;
 }
@@ -230,7 +230,7 @@ html[lang="zh"] .intro-content p {
 html[lang="zh"] .contact-item span,
 html[lang="zh"] .email-link span,
 html[lang="zh"] .social-link {
-  font-family: 'Source Han Serif', serif !important;
+  font-family: 'Source Han Serif', 'Noto Serif SC', 'STSong', 'Songti SC', serif !important;
   font-weight: 500 !important;
 }
 
